@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+main {
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+    background-color: turquoise;
+}
+header {
+    width: 1366px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+}
+nav {
+    width: 1366px;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; color: rgb(0, 0, 0); font-family: "Noto Sans JP", sans-serif;
+    padding: 15px;
+    transition: 3s;
+}
+nav a:hover{
+    background-color: rgb(101, 201, 176);
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-color: rgb(88, 190, 190);
+    background-image: url(../Frieren/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+section .personajes{
+    width: 1366px;
+    height: 350px;
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.personajes .foto{
+    width: 400px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom: antiquewhite 4px solid;
+}
+.foto img{
+    height: 100%;
+}
+
+.personajes .texto{
+    width: 800px;
+    height: 350px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: rgba(164, 255, 255, 0.751);
+}
+footer {
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(2, 255, 255);
+}
